@@ -16,8 +16,10 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: white;
-    position: absolute;
     width: 100%;
+}
+.footer ul{
+    margin-left: 4vw;
 }
 .footer li{
     list-style-type: none;
