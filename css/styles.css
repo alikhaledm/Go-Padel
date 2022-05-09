@@ -6,7 +6,7 @@
 .header a:hover{
     border-bottom: 1px white solid;
 }
-.body{
+body{
     font-family: 'Montserrat', sans-serif;
 }
 .footer{
