@@ -19,7 +19,7 @@ body{
 .footer ul{
     margin-left: 4vw;
 }
-.footer li{
+.bullet li{
     list-style-type: none;
     text-shadow: 2px 2px 4px black;
 }
