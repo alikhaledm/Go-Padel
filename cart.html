@@ -12,48 +12,27 @@
       background-size: cover;
     }
     .center{
+      text-align: center;
       margin-top: 4vw;
       margin-bottom: 5vw;
+    }
+    .center hr{
+      width: 90%;
+      margin: auto;
     }
     .card img {
       width: 10vw;
     }
-
-    .row {
-      margin-right: 0%;
-    }
-    .row hr {
-      width: 90%;
-      color: black;
-      height: 2px;
-      margin-right: 0%;
-    }
-
-    img {
-      margin: 1vw;
-    }
-
     h3 {
       margin-top: 2vw;
     }
-
     h5 {
       font-size: 16px;
-    }
-    .card-body {
-      padding-right: 0%;
     }
     select {
       width: 5vw;
     }
-    p {
-      text-align: right;
-    }
-    h6{
-      margin-right: 5.8vw;
-      text-align: right;
-      font-size: 23px;
-    }
+
     .btn{
       width: 90.5%;
       margin-top: 1vw;
@@ -121,18 +100,18 @@
       <div class="card mx-auto" id="3rd">
         <div class="card-body">
           <div class="row">
-            <div class="col">
+            <div class="col-sm-3">
               <img src="images/FUJI-–-CROSS-1.5-1.jpg">
             </div>
-            <div class="col">
+            <div class="col-sm-3">
               <h3>FUJI 1.5</h3>
               <h5>Model: 2020 <br>Size: 19",21"<br>Color: Orange</h5>
             </div>
-            <div class="col">
+            <div class="col-sm-3">
               <h3>PRICE</h3>
               <h5>$79.99</h5>
             </div>
-            <div class="col">
+            <div class="col-sm-3">
               <h3>DAYS</h3>
               <h5><select>
                   <option>1</option>
@@ -147,18 +126,18 @@
             <hr>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col-sm-3">
               <img src="images/FUJI-–-CROSS-1.5-1.jpg">
             </div>
-            <div class="col">
+            <div class="col-sm-3">
               <h3>FUJI 1.5</h3>
               <h5>Model: 2020 <br>Size: 19",21"<br>Color: Orange</h5>
             </div>
-            <div class="col">
+            <div class="col-sm-3">
               <h3>PRICE</h3>
               <h5>$79.99</h5>
             </div>
-            <div class="col">
+            <div class="col-sm-3">
               <h3>DAYS</h3>
               <h5><select>
                   <option>1</option>
@@ -171,13 +150,17 @@
                 </select></h5>
             </div>
             <hr>
-            <div class="col"><h4 style="margin-top: 1vw;">TOTAL</h4></div>
-            <div class="col"><H6 style="margin-top: 1vw;">$1345.67</H6></div>
-          </div>
-          <div class="row"><button class="btn btn-warning">CHECKOUT</button></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6"><h2 style="text-align: left; margin-left:5vw; margin-top:1.5vw;">TOTAL</h2></div>
+          <div class="col-sm-6"><h2 style="text-align: right; margin-right:5vw; margin-top:1.5vw;"> $1234.56</h2></div>
+        </div>
+        <div class="row">
+          <button class="btn btn-warning btn-outline-success MX-AUTO">CHECKOUT</button>
         </div>
       </div>
     </div>
+  </div>
   </div>
   <div class="footer">
     <div class="container">
