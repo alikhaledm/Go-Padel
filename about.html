@@ -7,24 +7,35 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>About Us</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("#hide").click(function(){
-    $("p").hide(1000);
-  });
+    <script>
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                $(".about").hide(1000);
+            });
 
-  $("#show").click(function(){
-    $("p").show(1000);
-  });
+            $("#show").click(function () {
+                $(".about").show(1000);
+            });
 
-});
-</script>
+        });
+        $(document).ready(function () {
+            $("#hide2").click(function () {
+                $(".about2").hide(1000);
+            });
+
+            $("#show2").click(function () {
+                $(".about2").show(1000);
+            });
+
+        });
+    </script>
     <style>
         body {
-            background-image: url(images/about1.jpg);
+            background-image: url(images/pexels.jpg);
             background-size: cover;
             text-shadow: 1px 1px 4px black;
         }
+
         .display-3 {
             margin-top: 2vw;
             color: white;
@@ -43,23 +54,26 @@ $(document).ready(function(){
             height: 1.5px;
         }
 
-        .center p{
+        .center p {
             margin-top: 1vw;
             color: white;
             font-size: 21px;
             font-weight: 400;
         }
-        .display-4{
+
+        .display-4 {
             margin-top: 3vw;
-            color:white;
+            color: white;
             font-size: 3.5vw;
         }
-        .footer{
+
+        .footer {
             margin-top: 7vw;
             margin-right: 0%;
         }
     </style>
 </head>
+
 <body>
     <div class="header">
         <div class="menu-bar">
@@ -118,17 +132,26 @@ $(document).ready(function(){
         <hr>
         <div class="container">
             <div class="row">
-                <div class="col-sm-6"> 
+                <div class="col-sm-6">
                     <div class="display-4 text-center">What is <br> <b>Go Pedal</b>?</div>
                     <button class="btn btn-outline-warning" id="hide">↑</button>
                     <button class="btn btn-outline-warning" id="show">↓</button>
-                    <p class="about">Ultimately, only one thing counts for us: the perfect ride. With our online booking platform, you
-                        have access to more than 50,000 bikes across Europe and around the world. <br><br> We want you to be able
+                    <p class="about">We work together to design, create and produce work that we are proud of for folks
+                        that we believe in. We are available for hire in a wide range of creative disciplines for a
+                        variety of jobs, projects and gigs.</p>
+                        <hr>
+                    <button class="btn btn-outline-warning" id="hide2">↑</button>
+                    <button class="btn btn-outline-warning" id="show2">↓</button>
+                    <p class="about2">Ultimately, only one thing counts for us: the perfect ride. With our online booking
+                        platform, you
+                        have access to more than 50,000 bikes across Europe and around the world. <br><br> We want you
+                        to be able
                         to
                         rent the right bike for any terrain from city cruisers to high-end mountain bikes — anytime,
                         anywhere. And if you have a cool bike that you want to share, you can simply list it on our
                         online
-                        platform.<br><br> We bring bike owners and renters together in a way that benefits both sides. Whether
+                        platform.<br><br> We bring bike owners and renters together in a way that benefits both sides.
+                        Whether
                         you’re a private or a commercial renter, an ambitious sportsman or a recreational cruiser, we
                         all
                         have one thing in common — the love for bicycles!</p>
@@ -139,7 +162,8 @@ $(document).ready(function(){
         </div>
     </div>
 
-    <button class="btn btn-outline-dark bg-warning" style="margin-left:83vw; margin-top:3vw;" onclick="toTop()">↑</button>
+    <button class="btn btn-outline-dark bg-warning" style="margin-left:83vw; margin-top:3vw;"
+        onclick="toTop()">↑</button>
 
     <div class="footer">
         <div class="container">
@@ -208,9 +232,10 @@ $(document).ready(function(){
     </div>
     <script>
         function rent() {
-          alert("Bike added to cart");
+            alert("Bike added to cart");
         }
-        const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'})
-        </script>
+        const toTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
+    </script>
 </body>
+
 </html>
