@@ -138,6 +138,9 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
+
+    <button class="btn btn-outline-dark bg-warning" style="margin-left:83vw; margin-top:3vw;" onclick="toTop()">↑</button>
+
     <div class="footer">
         <div class="container">
             <div class="row ">
@@ -203,5 +206,11 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
+    <script>
+        function rent() {
+          alert("Bike added to cart");
+        }
+        const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'})
+        </script>
 </body>
 </html>
